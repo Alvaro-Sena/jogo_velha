@@ -56,13 +56,13 @@ git clone https://github.com/Alvaro-Sena/jogo_velha.git
 cd jogo_velha/
 ```
 3. Instale as dependências:  
-   ```bash  
-   pip install -r requirements.txt  
-   ```  
+ ```bash  
+ pip install -r requirements.txt  
+ ```  
 3. Execute o jogo:  
-   ```bash  
-   python runner.py  
-   ```
+ ```bash  
+ python runner.py  
+ ```
 
 Certifique-se de que possui **Python 3** instalado no seu ambiente, bem como, instalar a biblioteca presente em requirements.txt.
 
