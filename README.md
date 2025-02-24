@@ -17,7 +17,7 @@ Este projeto implementa o jogo da velha (Tic-Tac-Toe) utilizando o algoritmo Min
 
 A pasta contém os seguintes arquivos:
 
-- **`runner.py`**: Interface gráfica para jogar o jogo da velha.
+- **`runner.py`**: Interface gráfica para jogar o jogo da velha (fornecida pelo CS50).
 - **`tictactoe.py`**: Implementação da lógica do jogo e do algoritmo Minimax.
 - **Outros arquivos**: Foram fornecidos pelo curso CS50 de Harvard como base para o desenvolvimento.
 
@@ -47,13 +47,24 @@ Toda a lógica do jogo e a implementação do algoritmo Minimax foram desenvolvi
 
 ## Como Rodar o Jogo
 
-Para jogar, basta executar o seguinte comando no terminal:
-
+1. Clone este repositório:
 ```bash
-python runner.py
+git clone https://github.com/Alvaro-Sena/jogo_velha.git 
 ```
+2. Navegue até a pasta
+```bash
+cd jogo_velha/
+```
+3. Instale as dependências:  
+   ```bash  
+   pip install -r requirements.txt  
+   ```  
+3. Execute o jogo:  
+   ```bash  
+   python runner.py  
+   ```
 
 Certifique-se de que possui **Python 3** instalado no seu ambiente, bem como, instalar a biblioteca presente em requirements.txt.
 
 ## Contato
-Caso tenha dúvidas ou sugestões, entre em contato através do meu [LinkedIn](www.linkedin.com/in/alvaro-sena), [GitHub](https://github.com/Alvaro-Sena)ou [WhatsApp](https://wa.me/447356040385).
+Caso tenha dúvidas ou sugestões, entre em contato através do meu [LinkedIn](www.linkedin.com/in/alvaro-sena), [GitHub](https://github.com/Alvaro-Sena) ou [WhatsApp](https://wa.me/447356040385).
